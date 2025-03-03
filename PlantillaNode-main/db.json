@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    {
+      "id": "",
+      "nombre": "",
+      "password": "",
+      "rol": ""
+    },
+    {
+      "id": "",
+      "nombre": "",
+      "password": "",
+      "rol": ""
+    }
+  ],
+  "consultas": [
+    {
+      "id": "",
+      "usuario_id": "",
+      "nombre": "",
+      "consulta": ""
+
+    }
+  ],
+  "estadisticas": {
+    "total_usuarios": [],
+    "total_consultas": []
+  }
+
+}

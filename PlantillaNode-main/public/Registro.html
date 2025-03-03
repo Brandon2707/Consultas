@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/registro.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro</h2>
+        <form id="registroForm">
+            <label for="newUsername">Usuario:</label>
+            <input type="text" id="newUsername" required>
+
+            <label for="newPassword">Contraseña:</label>
+            <input type="password" id="newPassword" required>
+
+            <label for="role">Rol:</label>
+            <select id="role" required>
+                <option value="estudiante">Estudiante</option>
+                <option value="admin">Administrador</option>
+            </select>
+
+            <div id="adminPasswordContainer" style="display: none;">
+                <label for="adminPassword">Contraseña de Administrador:</label>
+                <input type="password" id="adminPassword">
+            </div>
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script src="./js/regristro.js"></script>
+</body>
+</html>
